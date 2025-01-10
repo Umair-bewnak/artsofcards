@@ -17,10 +17,10 @@ const Carousel = ({ image, text }) => {
               <div
                 className="carousel-outer text-light row"
                 style={{
-                  background: `linear-gradient(to top right, rgba(255, 255, 255, 0.9), transparent), url(${data.img1})`,
+                  background: `linear-gradient(to top right, #fff 10%, transparent 60%), url(${data.img1})`,
                 }}
               >
-                <div className="carousel-body my-auto col-6">
+                <div className="carousel-body my-auto col-lg-6">
                   <span className="carousel-span">Introduction</span>
                   <h1 className="carousel-head">{data.heading}</h1>
                   <p className="carousel-content">{data.content}</p>

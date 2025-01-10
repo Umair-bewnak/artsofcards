@@ -13,9 +13,9 @@ const Card = ({ info, onHover, onOut }) => {
   return (
     <>
       {info?.map((data, index) => {
-        const addMargin = data.id >= 5 && data.id <= 8 ? "my-5" : "";
+        const addMargin = data.id >= 5 && data.id <= 8 ? "my-lg-5" : "";
         return (
-          <div className={`col-3 ${addMargin}`}>
+          <div className={`col-lg-3 col-md-4 col-6 ${addMargin}`}>
             <div
               className="card card2 "
               onMouseOver={() => hoverHandler(data.bg)}
