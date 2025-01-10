@@ -40,7 +40,7 @@ const Carousel = ({ image, text }) => {
             aria-hidden="true"
           ></span> */}
           <span className="prev-icon fw-bold">
-            <img className="prev1" src={prev} alt="next" />
+            <img className="prev1" src={prev} alt="prev" />
           </span>
         </button>
         <button

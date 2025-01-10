@@ -15,7 +15,7 @@ const product = [
   {
     id: 3,
     img: img1,
-    alt:"Product Image 1"
+    alt:"Product Image 3"
   }
 ];
 

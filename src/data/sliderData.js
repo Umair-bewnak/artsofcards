@@ -24,3 +24,4 @@ const sliderImages = [
   ];
 
   export default sliderImages;
+    
