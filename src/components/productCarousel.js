@@ -36,14 +36,14 @@ const ProductCarousel = ({ info }) => {
   return (
     <div className="carousel-container">
       <Slider {...settings}>
-        {info?.map((data, index) => (
-          <div key={index} className="carousel-item-container">
+        {info?.map((data, index) => {
+          return <div key={index} className="carousel-item-container">
             <img src={data.img} className="product-image" alt={data.alt} />
             <div className="youtube-hover">
-              <img src={youtube} className="youtube-image" alt="youtube-image" />
+              <img src={youtube} className="youtube-image" alt={`youtube-image${index}`} />
             </div>
           </div>
-        ))}
+})}
       </Slider>
     </div>
   );
