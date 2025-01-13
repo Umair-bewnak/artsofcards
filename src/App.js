@@ -126,13 +126,13 @@ function App() {
               <div className="explore-child1 text-center">
                 <h2 className="explore-head">Explore All Products</h2>
                 <div className="row ">
-                  <div className="col-sm-4 col-6 text-sm-end">
+                  <div className="col-sm-4 text-sm-end">
                     <button className="btn explore-btn">
                     <img className="me-2 btn-img" src={amazon} alt="Amazon icon" />
                     Amazon
                   </button>
                   </div>
-                  <div className="col-sm-4 col-6">
+                  <div className="col-sm-4">
                     <button className="btn explore-btn">
                     <img className="me-2 btn-img" src={facebook} alt="facebook icon" />
                     Facebook

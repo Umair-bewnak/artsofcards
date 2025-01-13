@@ -46,14 +46,15 @@ const MobileCarousel = ({ info }) => {
             <Slider {...settings}>
                 {info?.map((data, index) => {
                     return <div key={index} className="carousel-item-container1">
-                        <div className="carousel-item-child1">
+                        <div className="carousel-item-child1">        
                             <img src={data.img1} className="product-image1" alt={data.alt} />
+                            <div className="overlay1"></div>                    
                         </div>
 
-                        <div className="text-center py-3">
+                        <div className="text-center carousel-item-child2 py-3">
                             <h1 className="mobile-head">{data.heading}</h1>
                             <div className="text-center d-flex justify-content-center row">
-                                <p className="mobile-text col-6">{data.content}</p>
+                                <p className="mobile-text col-sm-8 col-8">{data.content}</p>
                             </div>
                         </div>
                     </div>
